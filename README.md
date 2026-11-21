@@ -1,6 +1,11 @@
-# TypeOpen Homebrew tap
+# TriHerm Homebrew tap
 
-This directory is the canonical reviewable source for the TypeOpen Cask published through the TriHerm Homebrew tap.
+Install native Mac apps from TriHerm with Homebrew.
+
+| App | Requirements | Install |
+| --- | --- | --- |
+| [Voxstead](https://github.com/TriHerm/voxstead) · live captions and call assistance | Apple Silicon, macOS 26+ | `brew install --cask triherm/tap/voxstead` |
+| [TypeOpen](https://github.com/TriHerm/TypeOpen) · Markdown editor | Apple Silicon, macOS 13+ | `brew install --cask triherm/tap/typeopen` |
 
 ## Public tap repository
 
@@ -9,13 +14,14 @@ The public tap is `TriHerm/homebrew-tap` with this layout:
 ```text
 homebrew-tap/
 ├── Casks/
-│   └── typeopen.rb
+│   ├── typeopen.rb
+│   └── voxstead.rb
 └── README.md
 ```
 
 Homebrew maps the short tap name `triherm/tap` to `https://github.com/TriHerm/homebrew-tap`.
 
-## v0.1.7 release metadata
+## TypeOpen v0.1.7 release metadata
 
 - Release: `v0.1.7`
 - Artifact: `TypeOpen-0.1.7-arm64.dmg`
