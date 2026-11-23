@@ -1,6 +1,6 @@
 cask "voxstead" do
-  version "0.3.17"
-  sha256 "8ad8053e9c8fe14fb221b84e9331e625c13eba43a878c52403d08a8f4b40f193"
+  version "0.3.18"
+  sha256 "d088659e246d4808ff29c64f910df1b542d0e35c6c160aea25ac735dad05b231"
 
   url "https://github.com/TriHerm/voxstead/releases/download/v#{version}/Voxstead-#{version}-arm64.dmg"
   name "Voxstead"
